@@ -1,0 +1,88 @@
+/*
+    For all styling of elements on the page.
+    Colors, borders, etc...
+*/
+
+body{
+	font-family:sans-serif;
+	background-color:#eee;
+}
+
+header{
+	color:#ddd;
+	font-size:40px;
+
+	background-color:#333;
+
+	background-image: -moz-radial-gradient(left top, circle cover, #444, #333 20%);
+	background-image: -webkit-radial-gradient(left top, circle cover, #444, #333 20%);
+	background-image: -o-radial-gradient(left top, circle cover, #444, #333 20%);
+	background-image: -ms-radial-gradient(left top, circle cover, #444, #333 20%);
+	background-image: radial-gradient(left top, circle cover, #444, #333 20%);
+
+	border-bottom-color:#00bbcc;
+}
+
+#title{
+	text-shadow: #00bbcc 2px 2px 0px;
+	font-family:'Geostar Fill',sans-serif;
+}
+
+.nav{
+	font-size:20px;
+}
+.nav>li{
+	margin-right:15px;
+	list-style-type:none;
+	display:inline;
+}
+
+.nav>li>a:link{
+	color:rgba(255,255,255,0.5);
+	text-decoration:none;
+}
+.nav>li>a:visited{
+	color:white;
+	text-decoration:none;
+}
+.nav>li>a:hover{
+	color:white;
+	text-decoration:none;
+}
+.nav>li>a:active{
+	color:white;
+	text-decoration:none;
+}
+
+.nav>li:hover{
+	padding-bottom:8px;
+
+	color:#cc0082;
+
+	border-bottom-width:4px;
+	border-bottom-style:solid;
+	border-bottom-color:#cc0082;
+}
+
+.sidebar{
+	color:white;
+
+	background-color:#00bbcc;
+	border-top-color:#00bbcc;
+	border-bottom-color:#00bbcc;
+}
+
+.post{
+	background-color:#9cdce2;
+	background-color:rgba(0,187,204,0.25);
+
+	border-right-width:2px;
+	border-style:dashed;
+	border-color:#00bbcc;
+
+	border-left-width:2px;
+}
+
+.post:hover{
+	border-style:solid;
+}
